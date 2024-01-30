@@ -1,0 +1,108 @@
+Test Cases for Login
+
+1. Verify the user credential remained on the field after clicking remember and get back to the login screen again.
+
+2. Verify that the user will be able to log in with their account with the correct credential.
+
+3. Verify that the user will get into their dashboard screen after login in with the correct credentials.
+
+4. Verify that the user can access all controls and elements by pressing the Tab key from the keyboard.
+
+5. Verify that the user can log in by entering valid credentials and pressing Enter key.
+
+6. Verify that the user can log in by entering valid credentials and clicking on the login button.
+
+7. Verify that the password entered should be in encrypted form.
+
+8. Verify whether an eye icon is added to the password field or not.
+
+9. Verify that the user can be able to view the password by clicking on the eye icon.
+10. Add a captcha on the login form to prevent the robot attack.
+
+11. Verify the error message should display after just entering an email address and leaving the password field blank. 
+
+12. Verify the error message should display after just entering a password and leaving the email field blank.
+
+13. verify the absence of the email icon in the email input box and the absence of the lock icon in the password input box during the login process.
+
+14. Verify the displayed error message grammar, spell should be correct.
+
+15. Check logged in user should not log out on closing the browser. 
+
+16. Verify the login session timeout duration. So, once logged in a user cannot be authenticated for a lifetime.
+17. Verify logged-in user doesn't log out by clicking the back button on the browsers tab.
+
+18. Verify logged-in user copies the URL and pastes it into a new browser window, it should redirect to the login page.
+
+19. Check login by google and all social options for login in the private window separately.
+
+20. As the user signs in, on the home page, there is no need for displaying Sign Up or Try Now, etc (if the user logged in).
+            21. Add rate limit on login. After how many attempts user should be able to restrict by the
+                     App for the wait.
+           22.Verify it should not be always in leading in case the user adds an invalid email and                  
+                 password.
+
+                                     Test Cases for Login page
+1. Verify the login screen will appear after clicking on a login link or login button.
+2. Verify all login-related elements and fields are present on the login page.
+3. Verify the alignment of displayed elements on the login screen should be compatible in cross browsers testing.
+4. Verify that the size, colour, of different elements should match the specifications.
+5. Verify that the login page of the application is responsive and aligns properly on different screen resolutions and devices.
+6. Verify login page title.
+7. After the user login page is open, the cursor should remain in the username text box by default.
+8. Verify the remember me checkbox should mark as checked after clicking on the label text and the check box.
+Test Cases for Registration
+
+1. Verify by clicking on the submit button for blank input.
+ 2. Verify all fields related to registration present on the registration form.
+3. Password field should have validation for a minimum of 8 to maximum of 16 characters, must contain one special character, at least one uppercase character, and have a numerical.
+ 4. Verify password added by the user should be protected. encrypted, and shown in an asterisk(***).
+ 5.Verify whether the validation is added for the password and Confirm  whether  passwords are the same or not.
+6. Verify an eye icon added to the password and confirm the password field.
+7. Verify by clicking on the eye icon password should be shown for both passwords and confirm password fields.
+8. Verify captcha is added to the form or not. Captcha added due to security. Hidden or visible may be added according to need.
+9. Verify example or dummy data shown as placeholder text in the fields. It helps the user to register their account without facing any issues.
+10. Verify that user-added information is not removed from the fields in case of any validation fails. Can be done when client-side validation is implemented.
+11. Verify possible validation should be done on the client-side whenever possible.
+12. Verify that validation is added to the email field, only valid emails should be allowed to register successfully.
+13. Verify that the user is not allowed to register an account with the same registered email by adding plus for example useractual+1@gmail.com.
+14. Verify that the user adds blank spaces and clicks on the register button an error message should be shown.
+15. Verify that the user can navigate or access the different controls by pressing the 'Tab key on the keyboard.
+16. Verify the email verification link was sent to the user's email address successfully.
+17. Verify that the user should not be able to access the application, software, or pro features until the user verifies its email by clicking on the link sent in the email.
+18. Verify the user is informed to check the spam folder if no email link is found in the inbox.
+19. Verify Resend Link option is present if the user did not receive the link in the email.
+20. Verify resend email link becomes disabled if the user ontinuously clicks on the Resend Link. Set a limit max of five mes to send the link then give the user a rest.
+21. If the user signup with email and social platform and both have the same email, consider it one email uniquely not the two separate accounts.
+22 Verify that the required fields are not filled in and clicking The Register button will result in a validation error message.
+ 
+
+
+
+Test Cases for Forget Password
+
+1. Verify that forget password link should be present on the login screen.
+2. Verify that on clicking on the forget password link forget password page should open.
+3. Verify that the email field is present on the forget password page to recover the password.
+4. Verify as the user update password, the user should log out from all browser and devices.
+5. Verify that storage for the database on forgot password.
+6. Verify that an email validation is added to the email field.
+7. Verify Submit button should be present on the page.
+8. Verify the whole button should be clickable not only the button text.
+9. Verify that the link sent to the user should expire after a certain time.
+10. Verify sent password link should be disabled on clicking multiple times on the link or as per specification and requirement.
+11. Verify the error message should be displayed after entering an unregistered user email id.
+12. Verify the displayed error message for unregistered should be meaningful.
+13. Verify the confirmation message check your email to recover the password should be displayed after clicking on the button by entering the registered email id.
+14. Verify that the user will get an email after entering a valid email id in forget password.
+15. Verify the email which the user gets against forgot password should be displayed in the inbox, not in the spam folder.
+16. Verify the error message should be displayed when clicking on the recover button without entering the email id.
+17. Verify the user will get the forget password email from info@sitename.com.
+18. Verify the heading displayed in forget password screen should be " Forget Password.
+19. Verify the error message should be displayed when entering spaces in the field and clicking on the Submit button.
+20. Verify the subject name displayed in forget password email should be " Your New Password".
+21. Verify user should be login successfully with the new password not by the old password.
+22. Verify message should be shown on profile change your password in case if a temporary password is sent in the email.
+
+
+
